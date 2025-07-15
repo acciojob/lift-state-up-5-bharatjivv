@@ -4,7 +4,7 @@ const LoginForm = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
-    const handleLogin = (e) => {
+    const handlSubmit = (e) => {
         e.preventDefault();
         if(username && password) {
             onLogin();
