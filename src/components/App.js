@@ -15,7 +15,7 @@ const App = () => {
     <h1>Parent Component </h1>
         {/* Do not remove the main div */}
         {isLoggedIn ? (
-          <h1>Welcome user, Logged in!</h1>
+          <h1>You are logged in!</h1>
         ): (<LoginForm onLogin={handleLogin} />
 
         )}
